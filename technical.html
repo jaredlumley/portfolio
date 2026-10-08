@@ -1,13 +1,240 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Technical | Jared Lumley</title><link rel="stylesheet" href="style.css"></head><body><header><div class="wrap"><nav>
-<a class="brand" href="index.html">JARED LUMLEY, BSc, CSSGB</a>
-<div class="navlinks"><a href="projects.html">Projects</a><a href="technical.html">Technical</a><a href="credentials.html">Credentials</a><a href="contact.html">Contact</a></div>
-</nav></div></header>
-<section class="pagehero"><div class="wrap"><div class="eyebrow">Technical Capability</div><h1>Tools, methods, and industrial context</h1></div></section>
-<section><div class="wrap"><div class="grid2">
-<div class="card"><h3>Continuous Improvement</h3><p>Lean Six Sigma · DMAIC · process mapping · root-cause analysis</p></div>
-<div class="card"><h3>Data & Automation</h3><p>Excel · Python · SQL · reporting automation · data visualization · structured data analysis</p></div>
-<div class="card"><h3>Industrial Operations</h3><p>Electrical distribution · manufacturing · maintenance environments · warehouse operations · supply chain</p></div>
-<div class="card"><h3>Project Development</h3><p>Quotation processes · project execution · material readiness · process improvement</p></div>
-<div class="card"><h3>Technical Foundation</h3><p> Experience Machining & Welding · MATLAB · AutoCAD</p></div>
-<div class="card"><h3>Working Style</h3><p>Define the problem → establish the process → collect evidence → analyze the constraint → implement a practical change → control the result.</p></div>
-</div></div></section><footer><div class="wrap">Jared Lumley · Industrial Project Development & Continuous Improvement · <a href="contact.html">Contact</a></div></footer></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jared Lumley, rmc, PMP — Commercial & Business Development Director</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #38bdf8;
+            --border: #334155;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 3rem;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+        }
+
+        header {
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+            text-align: left;
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 800;
+            letter-spacing: -0.025em;
+            color: var(--text-main);
+            margin-bottom: 0.25rem;
+        }
+
+        .title {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--accent);
+            margin-bottom: 0.75rem;
+        }
+
+        .contact-info {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .contact-info a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--accent);
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 0.35rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+
+        .competencies-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.75rem;
+        }
+
+        .competency-item {
+            background-color: rgba(15, 23, 42, 0.5);
+            border: 1px solid var(--border);
+            padding: 0.75rem 1rem;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .competency-item strong {
+            color: var(--text-main);
+        }
+
+        .experience-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+            margin-bottom: 0.25rem;
+        }
+
+        .role {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--text-main);
+        }
+
+        .sector {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--accent);
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 1.25rem;
+            color: var(--text-muted);
+        }
+
+        li {
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        li strong {
+            color: var(--text-main);
+        }
+
+        @media (min-width: 640px) {
+            .competencies-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Jared Lumley, rmc, PMP</h1>
+            <div class="title">Commercial & Business Development Director</div>
+            <div class="contact-info">
+                <a href="https://jaredlumley.github.io" target="_blank">jaredlumley.github.io</a> &bull; Vaughan, ON &bull; 548-385-1232
+            </div>
+        </header>
+
+        <section>
+            <h2>Executive Profile</h2>
+            <p>Commercial and project-focused leader with a proven background in scaling revenue, optimizing supply chains, and driving high-value business development across complex industrial and electrical sectors. Adept at managing large P&Ls, owning multi-million-dollar pipelines, and aligning cross-functional engineering, sales, and operations teams to accelerate deal velocity and expand market share. Brings rigorous operational discipline from military leadership and a strategic, analytical foundation to deliver measurable top-line and bottom-line impact.</p>
+        </section>
+
+        <section>
+            <h2>Core Competencies & Commercial Impact</h2>
+            <div class="competencies-grid">
+                <div class="competency-item"><strong>Revenue & Pipeline Growth:</strong> Owning $30M+ commercial pipelines, scaling account portfolios, and accelerating lead-to-close cycles.</div>
+                <div class="competency-item"><strong>P&L & Branch Operations:</strong> Directing multi-million dollar annual revenue operations, optimizing inventory holding costs, and expanding profit margins.</div>
+                <div class="competency-item"><strong>Complex Project Leadership:</strong> Commercially leading industrial and electrical infrastructure projects up to $2M+ from bid through execution.</div>
+                <div class="competency-item"><strong>Strategic Partnerships:</strong> Cultivating enterprise client relationships, standardizing proposal workflows, and establishing high-performing supplier networks.</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Professional Experience</h2>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span class="role">Business Development Manager</span>
+                    <span class="sector">Power Services & Electrical Infrastructure</span>
+                </div>
+                <ul>
+                    <li>Own and influence a <strong>$30M pipeline</strong> across manufacturing and industrial accounts, driving acquisition for preventative electrical service and maintenance contracts.</li>
+                    <li>Standardized proposal workflows and redesigned the lead-to-close cycle to eliminate sales bottlenecks and systematically convert industrial facility risks into active pipeline.</li>
+                    <li>Coordinate cross-functional estimating, engineering, and operations teams to shape competitive solutions and hit targeted margin goals.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span class="role">District Manager, OEM</span>
+                    <span class="sector">Electrical Distribution & Industrial Supply</span>
+                </div>
+                <ul>
+                    <li>Directed OEM district operations across regional markets, taking full accountability for <strong>$30M+ in territory revenue</strong> and managing multi-branch performance.</li>
+                    <li>Maintained key OEM relationships through market volatility while tightening coordination between sales, branches, and supply chain to improve customer response times.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span class="role">Branch Manager & Project Manager</span>
+                    <span class="sector">Electrical Distribution & Project Delivery</span>
+                </div>
+                <ul>
+                    <li>Held <strong>full P&L responsibility for a $7M annual revenue</strong> branch, leading a cross-functional team and delivering <strong>7% YoY revenue growth</strong>.</li>
+                    <li>Commercially managed complex electrical projects ranging from <strong>$100K to $2M</strong>, achieving <strong>92% on-time delivery</strong> by aligning material strategy, BOM accuracy, and customer schedules.</li>
+                    <li>Streamlined vendor networks into strategic partnerships and restructured internal workflows to slash operating and inventory holding costs.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span class="role">Military Officer</span>
+                    <span class="sector">Canadian Armed Forces</span>
+                </div>
+                <ul>
+                    <li>Led teams in high-stakes, fast-paced operational environments, building foundational skills in strategic planning, crisis management, and resource allocation.</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
